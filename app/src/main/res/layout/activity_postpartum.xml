@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".postpartumActivity">
+    <include
+        android:id="@+id/postpartum_activity_toolbar"
+        layout="@layout/toolbar_layout"/>
+
+
+    <ScrollView
+        android:id="@+id/svblogspostpartum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/postpartum_activity_toolbar">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/llpostpartum">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/postpartumcover"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Postpartum care:\nWhat to expect after a vaginal birth"
+                    android:textColor="#727273"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_marginTop="15dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Your newborn might be your priority — but postpartum care counts, too. From soreness to discharge, what to expect as you recover from a vaginal delivery."
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="10dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pregnancy changes your body in more ways than you might expect. And it doesn't stop when the baby is born. Here's what to expect physically and emotionally after a vaginal delivery."
+                    android:textColor="#2C2C2C"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Vaginal soreness"
+                    android:textColor="#7d671f"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_marginTop="15dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="If you had a vaginal tear during delivery or your doctor made an incision, the wound might hurt for a few weeks. Extensive tears might take longer to heal. To ease discomfort while you're recovering:\n\n\t> Sit on a pillow or padded ring.\n\t> Cool the area with an ice pack, or place a chilled witch hazel pad between a sanitary napkin and the area between your vaginal opening and anus (perineum).\n\t> Use a squeeze bottle to pour warm water over the perineum as you're passing urine.\n\t> Use a squeeze bottle to pour warm water over the perineum as you're passing urine.\n\t> Take an over-the-counter pain reliever. Ask your health care provider about a numbing spray or cream, if needed.\n\t> Talk to your health care provider about using a stool softener or laxative to prevent constipation.\n\nTell your health care provider if you're experiencing severe, persistent or increasing pain. It could be a sign of infection."
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="10dp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Vaginal Discharge"
+                    android:textColor="#7d671f"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_marginTop="15dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="After delivery, you'll begin to shed the superficial mucous membrane that lined your uterus during pregnancy. You'll have vaginal discharge made up of this membrane and blood for weeks. The discharge will be red and heavy for the first few days. Then it will taper, become increasingly watery and change from pinkish brown to yellowish white.\n\nContact your health care provider if you have heavy vaginal bleeding — soaking a pad in less than an hour — especially if it's accompanied by pelvic pain, a fever or tenderness."
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contractions"
+                    android:textColor="#7d671f"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_marginTop="15dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="You might feel occasional contractions, sometimes called afterpains, during the first few days after delivery. These contractions — which often resemble menstrual cramps — help prevent excessive bleeding by compressing the blood vessels in the uterus. Afterpains are common during breastfeeding due to the release of the hormone oxytocin. Your health care provider might recommend an over-the-counter pain reliever."
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Incontinence"
+                    android:textColor="#7d671f"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_marginTop="15dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pregnancy, labor and a vaginal delivery can stretch or injure your pelvic floor muscles, which support the uterus, bladder and rectum. This might cause you to leak a few drops of urine while sneezing, laughing or coughing. These problems usually improve within weeks but might persist long term.\n\nIn the meantime, wear sanitary pads and do pelvic floor muscle exercises (Kegels) to help tone your pelvic floor muscles and control your bladder. To do Kegels, imagine you are sitting on a marble and tighten your pelvic muscles as if you're lifting the marble. Try it for three seconds at a time, then relax for a count of three. Work up to doing the exercise 10 to 15 times in a row, at least three times a day."
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="10dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hemorrhoids and bowel movements"
+                    android:textColor="#7d671f"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_marginTop="15dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="If you notice pain during bowel movements and feel swelling near your anus, you might have swollen veins in the anus or lower rectum (hemorrhoids). To ease discomfort while the hemorrhoids heal:\n\n\t> Apply an over-the-counter hemorrhoid cream or suppository containing hydrocortisone.\n\t> Use pads containing witch hazel or a numbing agent.\n\t> Soak your anal area in plain warm water for 10 to 15 minutes two to three times a day.\n\nIf you find yourself avoiding bowel movements out of fear of hurting your perineum or aggravating the pain of hemorrhoids or your episiotomy wound, take steps to keep your stools soft and regular. Eat foods high in fiber — including fruits, vegetables and whole grains — and drink plenty of water. Ask your health care provider about a stool softener, if needed."
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tender breasts"
+                    android:textColor="#7d671f"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_marginTop="15dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="A few days after birth, you might experience full, firm, tender breasts (engorgement). Frequent breastfeeding on both breasts is recommended to avoid or minimize engorgement.\n\nIf your breasts — including the dark circles of skin around the nipples — are engorged, your baby might have difficulty latching. To help your baby latch, you might hand express or use a breast pump to express a small amount of breast milk before feeding your baby. To ease breast discomfort, apply warm washcloths or take a warm shower before breastfeeding or expressing. It might make milk removal easier. Between feedings, place cold washcloths on your breasts. Over-the-counter pain relievers might help, too.\n\nIf you're not breastfeeding, wear a supportive bra, such as a sports bra. Don't pump your breasts or express the milk, which will cause your breasts to produce more milk."
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="10dp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hair loss and skin changes"
+                    android:textColor="#7d671f"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_marginTop="15dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="During pregnancy, elevated hormone levels mean your hair grows faster than it sheds. The result is often an extra-lush head of hair — but now it's payback time. After delivery, you'll experience hair loss for up to five months.\n\nStretch marks won't disappear after delivery, but eventually they'll fade from red to silver. Expect any skin that darkened during pregnancy — such as dark patches on your face — to slowly fade as well."
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mood changes"
+                    android:textColor="#7d671f"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_marginTop="15dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Childbirth triggers a jumble of powerful emotions. Many new moms experience a period of feeling down or anxious, sometimes called the baby blues. Symptoms include mood swings, crying spells, anxiety and difficulty sleeping. The baby blues typically subside within two weeks. In the meantime, take good care of yourself. Share your feelings, and ask your partner, loved ones or friends for help.\n\nIf you experience severe mood swings, loss of appetite, overwhelming fatigue and lack of joy in life shortly after childbirth, you might have postpartum depression. Contact your health care provider if you think you might be depressed, especially if your symptoms don't fade on their own, you have trouble caring for your baby or completing daily tasks, or you have thoughts of harming yourself or your baby."
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Weight loss"
+                    android:textColor="#7d671f"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_marginTop="15dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="After you give birth, you might look like you're still pregnant. This is normal. Most women lose 13 pounds (6 kilograms) during birth, including the weight of the baby, placenta and amniotic fluid. In the days after delivery, you'll lose additional weight from leftover fluids. After that, a healthy diet and regular exercise can help you gradually return to your pre-pregnancy weight."
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The postpartum checkup"
+                    android:textColor="#7d671f"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_marginTop="15dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="IThe American College of Obstetricians and Gynecologists recommends that postpartum care be an ongoing process rather than just a single visit after your delivery. Contact your health care provider within the first three weeks after delivery. Within 12 weeks after delivery, see your health care provider for a comprehensive postpartum evaluation.\n\nDuring this appointment, your health care provider will check your mood and emotional well-being, discuss contraception and birth spacing, and review information about infant care and feeding. Your health care provider will also talk about your sleep habits and issues related to fatigue, and do a physical exam. This might include checking your abdomen, vagina, cervix and uterus to make sure you're healing well. This is a great time to talk about any concerns you might have, including resuming sexual activity and how you're adjusting to life with a new baby."
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="10dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

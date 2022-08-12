@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".childcareActivity">
+    <include
+        android:id="@+id/childcare_activity_toolbar"
+        layout="@layout/toolbar_layout"/>
+    <ScrollView
+        android:id="@+id/svblogschildcare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/childcare_activity_toolbar">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/llchildcare">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/childcover"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Caring for a Newborn"
+                    android:textColor="#cc790c"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_marginTop="15dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Caring for a newborn can get a bit overwhelming, especially if it is your first time being a parent. From irregular feeding patterns to innumerable diaper changes, the first three months of motherhood take quite a toll on your regular life and routines. That is the time when you desperately need some parenting tips for infants. Here are few tips you can keep in mind while caring for a newborn."
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="10dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cuddle your baby to your heart’s content"
+                    android:textColor="#217485"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_marginTop="15dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="As per a recent study, holding your baby in your arms and cuddling them has a huge impact on their brain development. This is especially true if the baby is premature. The supportive skin-to-skin touch of a parent gives out a positive and nurturing vibe making the baby feel loved and secure. So, one of the best positive parenting tips is, go ahead and cradle your baby as much as you like. After all, they will outgrow your arms in a jiffy!"
+                    android:textColor="#2C2C2C"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bathing a newborn"
+                    android:textColor="#217485"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_marginTop="15dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Giving your baby a bath can get a bit tricky, especially if they do not enjoy it. Give them warm sponge baths upto the age of three months. If they enjoy their baths, you can give them a sponge bath everyday, or every two to three days if they do not like the feel of water. It is best to limit bath time to around five to ten minutes since newborns have very sensitive skin."
+                    android:textColor="#2C2C2C"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Crying is communicating"
+                    android:textColor="#217485"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_marginTop="15dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Worried your infant is crying all the time? Up until the age of six months, the only way babies can communicate and emote their feelings is by crying. Though you will be rewarded with a heart-warming smile or cooing sounds once in a while, crying is the only way they can let you know that they need something. So instead of doubting if you have got the qualities of good parents, just be patient and address your baby’s cries with a good feed, diaper change or just some good-old cuddling time."
+                    android:textColor="#2C2C2C"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="10dp" />
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Brain development in a newborn"
+                    android:textColor="#cc790c"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_marginTop="15dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Right from when your little one is born till the age of three years, their little brain develops at the speed of light - with more than a million neural connections per second to be precise. Additionally, apart from nutrition, the rate at which their brain develops depends on a multitude of external factors. Few of them are discussed below:"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="10dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Atmosphere at home"
+                    android:textColor="#217485"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_marginTop="15dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The importance of parenting in child development is huge. Make sure you spend as much time as possible with your newborn to aid, as much as possible, in their brain development. Homes that provide a nourishing environment with a lot of love and encouragement will have a positive impact on the child’s development as well. On the other hand, a stressful atmosphere at home can wean children away from their valuable time with parents, which is never a good sign."
+                    android:textColor="#2C2C2C"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Early nutrition"
+                    android:textColor="#217485"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_marginTop="15dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="There is no doubt that breast milk is the best nutrition you can give your baby. Apart from a host of developmental benefits, breast milk will protect your baby from allergies, diseases, ear infections and a multitude of other external viruses. You can also introduce your baby to solid food while breastfeeding. Start with fresh fruits and wholesome grains to make a tailor-made meal plan that stimulates muscle, bone and brain development."
+                    android:textColor="#2C2C2C"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Stimulus-response learning"
+                    android:textColor="#217485"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_marginTop="15dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Interacting with your child is considered as one of the best qualities of good parents. Talking to your child on a regular basis plays a huge role in the brain development of the child. Daily habits like reading a book to them and telling them stories in an illustrative manner can stimulate their brain cells and pave way for good creativity and imagination. It is also a good idea to introduce them to toys, books and other objects that affect cognitive development."
+                    android:textColor="#2C2C2C"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="10dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

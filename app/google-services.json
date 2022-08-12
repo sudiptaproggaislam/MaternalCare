@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "184221658079",
+    "project_id": "maternal-care-fa0e8",
+    "storage_bucket": "maternal-care-fa0e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:184221658079:android:646887b0d9298ae0be326a",
+        "android_client_info": {
+          "package_name": "com.progga.maternalcare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "184221658079-tf00p4i4i71vm50cr4n1l6nc0g1q6hqh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUzzFRyO6sZAJ1tP8W0NqC1C8VNbAtNJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "184221658079-tf00p4i4i71vm50cr4n1l6nc0g1q6hqh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

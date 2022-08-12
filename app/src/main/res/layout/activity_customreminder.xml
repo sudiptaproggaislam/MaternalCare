@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".customreminderActivity">
+
+    <include
+        android:id="@+id/customreminder_activity_toolbar"
+        layout="@layout/toolbar_layout"/>
+
+    <ListView
+        android:id="@+id/lvCustomReminder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/customreminder_activity_toolbar"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:divider="#9CC7EA"
+        android:dividerHeight="1dp" />
+
+    <LinearLayout
+        android:id="@+id/llCustomReminder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvCalerderCustomReminder"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/cardformainactivity"
+            android:gravity="center_vertical"
+            android:padding="4dp"
+            android:text="Tap here to pick date"
+            android:textAlignment="center"
+            android:textColor="@color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/etCustomMsg"
+                android:layout_width="280dp"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="left"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/inputs"
+                android:drawableStart="@drawable/remindericon"
+                android:drawableLeft="@drawable/remindericon"
+                android:gravity="center_vertical"
+                android:hint="Set Message"
+                android:inputType="text"
+                android:padding="4dp"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/btnSendCustomReminder"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:gravity="top"
+                android:layout_gravity="top"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/sendqaa" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

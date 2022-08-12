@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".queryActivity">
+
+    <include
+        android:id="@+id/query_activity_toolbar"
+        layout="@layout/toolbar_layout"/>
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/query_activity_toolbar">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/lvQuery"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            />
+
+    </ScrollView>
+    <!--    <ListView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:layout_below="@+id/query_activity_toolbar"-->
+    <!--        android:id="@+id/lvQuery"/>-->
+    <LinearLayout
+        android:id="@+id/llquery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true">
+
+
+
+        <EditText
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/etQuery"
+            android:layout_below="@+id/lvQuery"
+            android:hint="Any Query!!!"
+            android:inputType="text"
+            android:background="@drawable/inputs"
+            android:padding="4dp"
+            android:drawableStart="@drawable/queryicon"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:drawableLeft="@drawable/queryicon" />
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/sendqaa"
+            android:id="@+id/btnSendQuery"
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>

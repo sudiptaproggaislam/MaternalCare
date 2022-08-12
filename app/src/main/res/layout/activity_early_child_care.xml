@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".earlyChildCareActivity">
+    <include
+        android:id="@+id/earlychildcare_activity_toolbar"
+        layout="@layout/toolbar_layout"/>
+    <ScrollView
+        android:id="@+id/svblogsearlychildcare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/earlychildcare_activity_toolbar">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/llearlychildcare">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/paremtingcover"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Helping your child sleep faster and better"
+                    android:textColor="#cc790c"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_marginTop="15dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="For parents who have spent many tired nights up with their child, how to make a child sleep can be one of the most pressing concerns. Setting a proper night time routine in place is one of the most important positive parenting tips you need to consider to surpass the effects of early parenthood. A good sleep pattern not only results in your baby being happy and healthy, but it also gives you some me-time to sit back and relax."
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="10dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Consistency is key"
+                    android:textColor="#217485"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_marginTop="15dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Routines are everything when it comes to early parenthood. Create a nighttime routine which will instantly signal your child’s brain that sleep time is approaching. Whether it is a warm bath or reading out their favourite bedtime story, inculcate a bedtime routine and get your child to sleep on their own. A predictable routine is essential to how to fall asleep fast for kids."
+                    android:textColor="#2C2C2C"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Opt for early dinners"
+                    android:textColor="#217485"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_marginTop="15dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Putting your little one to sleep immediately after dinner is not a good idea because their bodies will be active and alert to digest what just got in. Opt for an early dinner instead, with ample time for digestion, so your child will get naturally tired. This is one of the most useful tricks to get toddlers to sleep. However, one of the top positive parenting tips is to make sure you keep sugary treats at bay to keep their energy levels in check."
+                    android:textColor="#2C2C2C"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Electronic-free zone"
+                    android:textColor="#217485"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_marginTop="15dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="One of the most effective parenting tips for toddlers is, try keeping electronic screens away before bedtime. There are many negative effects of staring at a screen for too long and your tiny tot’s precious eyes are no exception to this. Not only does TV time strain their eyes, it also keeps the brain alert well after it is switched off, which can hamper their sleep."
+                    android:textColor="#2C2C2C"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Effect of sleep on brain development"
+                    android:textColor="#217485"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_marginTop="15dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="One of the main reasons why inducing a bedtime routine is important is because of the major role sleep plays in the brain development of your child. During the active REM cycle of sleep, key brain cell connections are developed and a vital layer of fat called myelin is created on the fibres of the nerves. Additionally, sleep also helps in creating stronger connections between the left and right hemispheres of the brain."
+                    android:textColor="#2C2C2C"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="10dp" />
+            </LinearLayout>
+
+
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Home remedies to increase your child’s immunity"
+                    android:textColor="#cc790c"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_marginTop="15dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Early parenting is a challenge in itself, but taking care of a sick baby can tend to push you to your boundaries. Apart from being physically exhausted, you will also be worried about the health and well-being of your child. The importance of parenting becomes really evident during this time. But with simple routines and parenting tips, your child is guaranteed to be happy and healthy with a strong immune system in place."
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="10dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="A healthy and balanced diet"
+                    android:textColor="#217485"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_marginTop="15dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="If you want to know how to increase immunity in a child naturally, a good diet is the secret! Adding a generous amount of nutritious fruits and vegetables to your little one’s diet will help them produce white blood cells that fight infection and other ailments. Whether it is in the form of a smoothie or baked snacks, make sure your little one has at least five servings of fruits and vegetables in their daily diet."
+                    android:textColor="#2C2C2C"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="A solid sleeping pattern"
+                    android:textColor="#217485"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_marginTop="15dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="One of the main reasons why inducing a bedtime routine is important is because of the major role sleep plays in the brain development of your child. During the active REM cycle of sleep, key brain cell connections are developed and a vital layer of fat called myelin is created on the fibres of the nerves. Additionally, sleep also helps in creating stronger connections between the left and right hemispheres of the brain. So to ensure that you have all the qualities of good parents, induce a bedtime routine in your child's life."
+                    android:textColor="#2C2C2C"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Say no to cigarettes"
+                    android:textColor="#217485"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_marginTop="15dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="It is best to quit smoking altogether at least after childbirth. However, if you still feel the urge to smoke, make sure it is not in front of your child. Passive smoking can lead to harmful diseases like asthma and bronchitis. Furthermore, your child’s body is still developing a detoxification process and cigarette smoke is the last thing you want them to deal with."
+                    android:textColor="#2C2C2C"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="10dp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Focus on hygiene"
+                    android:textColor="#217485"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_marginTop="15dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Make good hygiene a daily habit to keep germs and other viruses away. Small routines like washing your hands before a meal or keeping your feet clean by wearing footwear at home are the best parenting tips that go a long way. It is also important to develop good habits and manners like brushing your teeth before sleeping for good dental hygiene. Remember, the importance of parenting in child development is huge and actions speak more than words. It is important for you to develop these habits in order to pass it down to your child."
+                    android:textColor="#2C2C2C"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="10dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,1746 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pregnancyActivity">
+    <include
+        android:id="@+id/prenancy_activity_toolbar"
+        layout="@layout/toolbar_layout"/>
+    <ScrollView
+        android:id="@+id/svblogspregnancy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/prenancy_activity_toolbar">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/llpregnancy">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/pregnancycover"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Week by Week Pregnancy Guide for Pregnant Mother"
+                    android:textColor="#197F7F"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_marginTop="15dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Wondering when you’ll feel your baby’s first kick or when you’ll have your first pregnancy ultrasound? Consider this week-by-week pregnancy calendar your ultimate guide to the next nine months."
+                    android:textColor="#2C2C2C"
+                    android:textSize="12sp"
+                    android:layout_marginLeft="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="First Trimester: 0 to 13 Weeks"
+                    android:textColor="#197F7F"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_marginTop="15dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Trimesters are counted from the start of your last menstrual period (are you sensing how important that date is). Remember, your fallopian tube doesn’t release an egg (that is later fertilized) until about 2 weeks after that period — so you’re not even actually PREGNANT until week 2 or so, but that’s how we count it. It is important that you take a prenatal vitamin as soon as you find out you’re pregnant. Actually, all women who have any chance of pregnancy should be taking a prenatal vitamin, as studies have shown that it can prevent issues with the spinal cord development and birth defects. There are lots of early signs of pregnancy that you could be experiencing, due to changes in the pregnancy hormones in your body. These can include nosebleeds, morning sickness, tenderness of your breasts and more."
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:layout_marginLeft="10dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="50dp">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:elevation="6dp"
+                        android:src="@drawable/wbw2"
+                        app:civ_border_color="#C2A3EF"
+                        app:civ_border_width="1dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="340dp"
+                    android:layout_height="50dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2 weeks pregnant"
+                        android:textColor="@color/black"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="15dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="It's a potentially life-changing week. You'll ovulate, and if egg meets sperm, you'll be on your way to pregnancy!"
+                        android:textColor="#2C2C2C"
+                        android:textStyle="italic"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="10dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="50dp">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:elevation="6dp"
+                        android:src="@drawable/wbw3"
+                        app:civ_border_color="#C2A3EF"
+                        app:civ_border_width="1dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="340dp"
+                    android:layout_height="50dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3 weeks pregnant"
+                        android:textColor="@color/black"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="15dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Your baby is a tiny ball – called a blastocyst – made up of several hundred cells that are multiplying quickly."
+                        android:textColor="#2C2C2C"
+                        android:textStyle="italic"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="10dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="50dp">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:elevation="6dp"
+                        android:src="@drawable/wbw4"
+                        app:civ_border_color="#C2A3EF"
+                        app:civ_border_width="1dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="340dp"
+                    android:layout_height="50dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4 weeks pregnant"
+                        android:textColor="@color/black"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="15dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Deep in your uterus, your baby is an embryo made up of two layers, and your primitive placenta is developing."
+                        android:textColor="#2C2C2C"
+                        android:textStyle="italic"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="10dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="50dp">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:elevation="6dp"
+                        android:src="@drawable/wbw5"
+                        app:civ_border_color="#C2A3EF"
+                        app:civ_border_width="1dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="340dp"
+                    android:layout_height="50dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5 weeks pregnant"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="13sp"
+                        android:layout_marginLeft="15dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Your tiny embryo is growing like crazy, and you may be noticing pregnancy discomforts like sore breasts and fatigue."
+                        android:textColor="#2C2C2C"
+                        android:textStyle="italic"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="10dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="50dp">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:elevation="6dp"
+                        android:src="@drawable/wbw6"
+                        app:civ_border_color="#C2A3EF"
+                        app:civ_border_width="1dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="340dp"
+                    android:layout_height="50dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="6 weeks pregnant"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="13sp"
+                        android:layout_marginLeft="15dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Your baby's nose, mouth, and ears are beginning to take shape. You may be having morning sickness and spotting."
+                        android:textColor="#2C2C2C"
+                        android:textStyle="italic"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="10dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="50dp">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:elevation="6dp"
+                        android:src="@drawable/wbw7"
+                        app:civ_border_color="#C2A3EF"
+                        app:civ_border_width="1dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="340dp"
+                    android:layout_height="50dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="7 weeks pregnant"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="13sp"
+                        android:layout_marginLeft="15dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Your baby – still an embryo with a small tail – is forming hands and feet. Your uterus has doubled in size."
+                        android:textColor="#2C2C2C"
+                        android:textStyle="italic"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="10dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="50dp">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:elevation="6dp"
+                        android:src="@drawable/wbw8"
+                        app:civ_border_color="#C2A3EF"
+                        app:civ_border_width="1dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="340dp"
+                    android:layout_height="50dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="8 weeks pregnant"
+                        android:textColor="@color/black"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="15dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Your baby is constantly moving, though you can't feel it. Meanwhile, you may be making decisions about prenatal tests."
+                        android:textColor="#2C2C2C"
+                        android:textStyle="italic"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="10dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="50dp">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:elevation="6dp"
+                        android:src="@drawable/wbw9"
+                        app:civ_border_color="#C2A3EF"
+                        app:civ_border_width="1dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="340dp"
+                    android:layout_height="50dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="9 weeks pregnant"
+                        android:textColor="@color/black"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="15dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Nearly an inch long now, your baby is starting to look more human. You've probably noticed your waist thickening."
+                        android:textColor="#2C2C2C"
+                        android:textStyle="italic"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="10dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="50dp">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:elevation="6dp"
+                        android:src="@drawable/wbw10"
+                        app:civ_border_color="#C2A3EF"
+                        app:civ_border_width="1dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="340dp"
+                    android:layout_height="50dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="10 weeks pregnant"
+                        android:textColor="@color/black"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="15dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Your baby has finished the most critical part of development! Organs and structures are in place and ready to grow."
+                        android:textColor="#2C2C2C"
+                        android:textStyle="italic"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="10dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="50dp">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:elevation="6dp"
+                        android:src="@drawable/wbw11"
+                        app:civ_border_color="#C2A3EF"
+                        app:civ_border_width="1dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="340dp"
+                    android:layout_height="50dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="11 weeks pregnant"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:textSize="13sp"
+                        android:layout_marginLeft="15dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Your baby's hands will soon open and close into fists, and tiny tooth buds are appearing underneath the gums."
+                        android:textColor="#2C2C2C"
+                        android:textStyle="italic"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="10dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="50dp">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:elevation="6dp"
+                        android:src="@drawable/wbw12"
+                        app:civ_border_color="#C2A3EF"
+                        app:civ_border_width="1dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="340dp"
+                    android:layout_height="50dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="12 weeks pregnant"
+                        android:textColor="@color/black"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="15dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Your little one's teeny toes can curl, her brain is growing furiously, and her kidneys are starting to excrete urine."
+                        android:textColor="#2C2C2C"
+                        android:textStyle="italic"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="10dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="50dp">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:elevation="6dp"
+                        android:src="@drawable/wbw13"
+                        app:civ_border_color="#C2A3EF"
+                        app:civ_border_width="1dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="340dp"
+                    android:layout_height="50dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="13 weeks pregnant"
+                        android:textColor="@color/black"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="15dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="It's the last week of the first trimester! Your baby now has exquisite fingerprints and is almost 3 inches long."
+                        android:textColor="#2C2C2C"
+                        android:textStyle="italic"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="10dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Second Trimester: 14 to 27 Weeks"
+                    android:textColor="#197F7F"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_marginTop="15dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="At the start of the second trimester, pregnant women tend to start to feel better from the morning sickness. At this stage fetal development is in full gear. You’ll likely see some weight gain and a baby bump will be more pronounced. You might even start to feel the baby move around 20 weeks. It can be hard since when people feel the baby move is based on a variety of things including where the placenta is on the uterus. There are a few pregnancy tests you’ll take during this trimester (including the glucose/diabetes test), but it is the most relaxed of all the trimesters."
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:layout_marginLeft="10dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="50dp">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:elevation="6dp"
+                        android:src="@drawable/wbw14"
+                        app:civ_border_color="#C2A3EF"
+                        app:civ_border_width="1dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="340dp"
+                    android:layout_height="50dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="14 weeks pregnant"
+                        android:textColor="@color/black"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="15dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Your baby's tiny features are making different expressions. And you may be feeling more energetic and less nauseated."
+                        android:textColor="#2C2C2C"
+                        android:textStyle="italic"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="10dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="50dp">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:elevation="6dp"
+                        android:src="@drawable/wbw15"
+                        app:civ_border_color="#C2A3EF"
+                        app:civ_border_width="1dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="340dp"
+                    android:layout_height="50dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="15 weeks pregnant"
+                        android:textColor="@color/black"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="15dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Your baby can sense light and is forming taste buds. Have a stuffy nose? It's a surprising pregnancy side effect."
+                        android:textColor="#2C2C2C"
+                        android:textStyle="italic"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="10dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="50dp">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:elevation="6dp"
+                        android:src="@drawable/wbw16"
+                        app:civ_border_color="#C2A3EF"
+                        app:civ_border_width="1dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="340dp"
+                    android:layout_height="50dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="16 weeks pregnant"
+                        android:textColor="@color/black"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="15dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Get ready for a growth spurt. In the next few weeks, your baby will double his weight and add inches to his length."
+                        android:textColor="#2C2C2C"
+                        android:textStyle="italic"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="10dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="50dp">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:elevation="6dp"
+                        android:src="@drawable/wbw17"
+                        app:civ_border_color="#C2A3EF"
+                        app:civ_border_width="1dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="340dp"
+                    android:layout_height="50dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="17 weeks pregnant"
+                        android:textColor="@color/black"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="15dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Your baby's skeleton is changing from soft cartilage to bone, and the umbilical cord is growing stronger and thicker."
+                        android:textColor="#2C2C2C"
+                        android:textStyle="italic"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="10dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="50dp">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:elevation="6dp"
+                        android:src="@drawable/wbw18"
+                        app:civ_border_color="#C2A3EF"
+                        app:civ_border_width="1dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="340dp"
+                    android:layout_height="50dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="18 weeks pregnant"
+                        android:textColor="@color/black"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="15dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Your baby's genitals are developed enough to see on an ultrasound. Hungry? An increase in appetite is normal now."
+                        android:textColor="#2C2C2C"
+                        android:textStyle="italic"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="10dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="50dp">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:elevation="6dp"
+                        android:src="@drawable/wbw19"
+                        app:civ_border_color="#C2A3EF"
+                        app:civ_border_width="1dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="340dp"
+                    android:layout_height="50dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="19 weeks pregnant"
+                        android:textColor="@color/black"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="15dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Go ahead and sing: Your baby may be able to hear you! And if your sides are aching, it could be round ligament pain."
+                        android:textColor="#2C2C2C"
+                        android:textStyle="italic"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="10dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="50dp">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:elevation="6dp"
+                        android:src="@drawable/wbw20"
+                        app:civ_border_color="#C2A3EF"
+                        app:civ_border_width="1dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="340dp"
+                    android:layout_height="50dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="20 weeks pregnant"
+                        android:textColor="@color/black"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="15dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Congratulations, you're at the halfway mark in your pregnancy! Your baby is swallowing more now and producing meconium."
+                        android:textColor="#2C2C2C"
+                        android:textStyle="italic"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="10dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="50dp">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:elevation="6dp"
+                        android:src="@drawable/wbw21"
+                        app:civ_border_color="#C2A3EF"
+                        app:civ_border_width="1dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="340dp"
+                    android:layout_height="50dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="21 weeks pregnant"
+                        android:textColor="@color/black"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="15dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Feeling your baby move? Those early flutters will turn into full-fledged kicks. Cool fact: She has eyebrows now!"
+                        android:textColor="#2C2C2C"
+                        android:textStyle="italic"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="10dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="50dp">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:elevation="6dp"
+                        android:src="@drawable/wbw22"
+                        app:civ_border_color="#C2A3EF"
+                        app:civ_border_width="1dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="340dp"
+                    android:layout_height="50dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="22 weeks pregnant"
+                        android:textColor="@color/black"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="15dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Your baby is starting to look like a miniature newborn. And your growing belly may be turning into a hand-magnet."
+                        android:textColor="#2C2C2C"
+                        android:textStyle="italic"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="10dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="50dp">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:elevation="6dp"
+                        android:src="@drawable/wbw23"
+                        app:civ_border_color="#C2A3EF"
+                        app:civ_border_width="1dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="340dp"
+                    android:layout_height="50dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="23 weeks pregnant"
+                        android:textColor="@color/black"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="15dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="When you're on the move, your baby can feel the motion. Pretty soon, you may notice swelling in your ankles and feet."
+                        android:textColor="#2C2C2C"
+                        android:textStyle="italic"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="10dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="50dp">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:elevation="6dp"
+                        android:src="@drawable/wbw24"
+                        app:civ_border_color="#C2A3EF"
+                        app:civ_border_width="1dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="340dp"
+                    android:layout_height="50dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="24 weeks pregnant"
+                        android:textColor="@color/black"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="15dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Your baby is long and lean, like an ear of corn. And your growing uterus is now the size of a soccer ball."
+                        android:textColor="#2C2C2C"
+                        android:textStyle="italic"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="10dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="50dp">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:elevation="6dp"
+                        android:src="@drawable/wbw25"
+                        app:civ_border_color="#C2A3EF"
+                        app:civ_border_width="1dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="340dp"
+                    android:layout_height="50dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="25 weeks pregnant"
+                        android:textColor="@color/black"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="15dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Your little one is starting to add some baby fat and grow more hair. Your hair may be looking extra lustrous, too."
+                        android:textColor="#2C2C2C"
+                        android:textStyle="italic"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="10dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="50dp">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:elevation="6dp"
+                        android:src="@drawable/wbw26"
+                        app:civ_border_color="#C2A3EF"
+                        app:civ_border_width="1dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="340dp"
+                    android:layout_height="50dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="26 weeks pregnant"
+                        android:textColor="@color/black"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="15dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Your baby is inhaling and exhaling small amounts of amniotic fluid, which is good practice for breathing."
+                        android:textColor="#2C2C2C"
+                        android:textStyle="italic"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="10dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="50dp">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:elevation="6dp"
+                        android:src="@drawable/wbw27"
+                        app:civ_border_color="#C2A3EF"
+                        app:civ_border_width="1dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="340dp"
+                    android:layout_height="50dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="27 weeks pregnant"
+                        android:textColor="@color/black"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="15dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Feel a tickle? It may be your baby hiccupping. He's also opening and closing his eyes and even sucking his fingers."
+                        android:textColor="#2C2C2C"
+                        android:textStyle="italic"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="10dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Third Trimester: 28 to 40+ Weeks"
+                    android:textColor="#197F7F"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_marginTop="15dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="At the start of your third trimester of pregnancy, your baby is pretty well formed and just growing inside of you. It’s important that you stay very hydrated during this pregnancy (I do have a whole post on if drinking gatorade during pregnancy is OK and all the other fluids you can use to hydrate). At this point, you may have more testing. Possibly more ultrasounds, or tests like the BPP or checking amniotic fluid levels (that means how much water is in the amniotic sac). Make sure that you keep scheduled appointments with your healthcare provider."
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:layout_marginLeft="10dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="50dp">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:elevation="6dp"
+                        android:src="@drawable/wbw28"
+                        app:civ_border_color="#C2A3EF"
+                        app:civ_border_width="1dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="340dp"
+                    android:layout_height="50dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="28 weeks pregnant"
+                        android:textColor="@color/black"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="15dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Welcome to your last trimester! Your developing baby's eyes may be able to see light filtering in through your womb."
+                        android:textColor="#2C2C2C"
+                        android:textStyle="italic"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="10dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="50dp">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:elevation="6dp"
+                        android:src="@drawable/wbw29"
+                        app:civ_border_color="#C2A3EF"
+                        app:civ_border_width="1dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="340dp"
+                    android:layout_height="50dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="29 weeks pregnant"
+                        android:textColor="@color/black"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="15dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Your baby's muscles and lungs are continuing to mature, and her head is growing to make room for her developing brain."
+                        android:textColor="#2C2C2C"
+                        android:textStyle="italic"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="10dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="50dp">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:elevation="6dp"
+                        android:src="@drawable/wbw30"
+                        app:civ_border_color="#C2A3EF"
+                        app:civ_border_width="1dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="340dp"
+                    android:layout_height="50dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="30 weeks pregnant"
+                        android:textColor="@color/black"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="15dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Your baby now weighs almost 3 pounds. Meanwhile, you may be battling mood swings, clumsiness, and fatigue."
+                        android:textColor="#2C2C2C"
+                        android:textStyle="italic"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="10dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="50dp">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:elevation="6dp"
+                        android:src="@drawable/wbw31"
+                        app:civ_border_color="#C2A3EF"
+                        app:civ_border_width="1dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="340dp"
+                    android:layout_height="50dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="31 weeks pregnant"
+                        android:textColor="@color/black"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="15dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Your baby's strong kicks might be keeping you up at night – and you may be feeling Braxton Hicks contractions, too."
+                        android:textColor="#2C2C2C"
+                        android:textStyle="italic"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="10dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="50dp">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:elevation="6dp"
+                        android:src="@drawable/wbw32"
+                        app:civ_border_color="#C2A3EF"
+                        app:civ_border_width="1dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="340dp"
+                    android:layout_height="50dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="32 weeks pregnant"
+                        android:textColor="@color/black"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="15dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Your baby is plumping up! Meanwhile, your expanding uterus may cause heartburn and shortness of breath."
+                        android:textColor="#2C2C2C"
+                        android:textStyle="italic"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="10dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="50dp">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:elevation="6dp"
+                        android:src="@drawable/wbw33"
+                        app:civ_border_color="#C2A3EF"
+                        app:civ_border_width="1dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="340dp"
+                    android:layout_height="50dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="33 weeks pregnant"
+                        android:textColor="@color/black"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="15dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="With your baby now weighing a little over 4 pounds, you might be waddling – and having trouble getting comfy in bed."
+                        android:textColor="#2C2C2C"
+                        android:textStyle="italic"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="10dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="50dp">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:elevation="6dp"
+                        android:src="@drawable/wbw34"
+                        app:civ_border_color="#C2A3EF"
+                        app:civ_border_width="1dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="340dp"
+                    android:layout_height="50dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="34 weeks pregnant"
+                        android:textColor="@color/black"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="15dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Your baby's central nervous system and lungs are maturing, and dizziness and fatigue may be slowing you down."
+                        android:textColor="#2C2C2C"
+                        android:textStyle="italic"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="10dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="50dp">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:elevation="6dp"
+                        android:src="@drawable/wbw35"
+                        app:civ_border_color="#C2A3EF"
+                        app:civ_border_width="1dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="340dp"
+                    android:layout_height="50dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="35 weeks pregnant"
+                        android:textColor="@color/black"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="15dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Your baby is too snug in your womb to do somersaults, but you'll still feel frequent – if less dramatic – movements."
+                        android:textColor="#2C2C2C"
+                        android:textStyle="italic"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="10dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="50dp">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:elevation="6dp"
+                        android:src="@drawable/wbw36"
+                        app:civ_border_color="#C2A3EF"
+                        app:civ_border_width="1dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="340dp"
+                    android:layout_height="50dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="36 weeks pregnant"
+                        android:textColor="@color/black"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="15dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Your baby is gaining about an ounce a day. You may feel her drop down into your pelvis as you approach your due date."
+                        android:textColor="#2C2C2C"
+                        android:textStyle="italic"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="10dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="50dp">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:elevation="6dp"
+                        android:src="@drawable/wbw37"
+                        app:civ_border_color="#C2A3EF"
+                        app:civ_border_width="1dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="340dp"
+                    android:layout_height="50dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="37 weeks pregnant"
+                        android:textColor="@color/black"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="15dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Your baby's brain and lungs are continuing to mature. You may have more vaginal discharge and occasional contractions."
+                        android:textColor="#2C2C2C"
+                        android:textStyle="italic"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="10dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="50dp">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:elevation="6dp"
+                        android:src="@drawable/wbw38"
+                        app:civ_border_color="#C2A3EF"
+                        app:civ_border_width="1dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="340dp"
+                    android:layout_height="50dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="38 weeks pregnant"
+                        android:textColor="@color/black"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="15dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Your baby has a firm grasp, which you'll soon be able to test in person! Meanwhile, watch out for signs of preeclampsia."
+                        android:textColor="#2C2C2C"
+                        android:textStyle="italic"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="10dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="50dp">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:elevation="6dp"
+                        android:src="@drawable/wbw39"
+                        app:civ_border_color="#C2A3EF"
+                        app:civ_border_width="1dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="340dp"
+                    android:layout_height="50dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="39 weeks pregnant"
+                        android:textColor="@color/black"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="15dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Your baby is full term this week and waiting to greet the world! If your water breaks, call your healthcare provider."
+                        android:textColor="#2C2C2C"
+                        android:textStyle="italic"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="10dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="50dp">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:elevation="6dp"
+                        android:src="@drawable/wbw40"
+                        app:civ_border_color="#C2A3EF"
+                        app:civ_border_width="1dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="340dp"
+                    android:layout_height="50dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="40 weeks pregnant"
+                        android:textColor="@color/black"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="15dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Your baby is the size of a small pumpkin! Don't worry if you're still pregnant – it's common to go past your due date."
+                        android:textColor="#2C2C2C"
+                        android:textStyle="italic"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="10dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="50dp">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:elevation="6dp"
+                        android:src="@drawable/wbw41"
+                        app:civ_border_color="#C2A3EF"
+                        app:civ_border_width="1dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="340dp"
+                    android:layout_height="50dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="41 weeks pregnant"
+                        android:textColor="@color/black"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="15dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="As cozy as he is, your baby can't stay inside you much longer. You'll go into labor or be induced soon."
+                        android:textColor="#2C2C2C"
+                        android:textStyle="italic"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="10dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
